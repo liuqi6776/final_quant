@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data and Predictions (only ignore sub-files, keep directories)
+predictions/*.parquet
+results/*.png
+results/*.txt
+results/*.csv
+.ipynb_checkpoints/
